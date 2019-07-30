@@ -5,7 +5,7 @@ header.masthead {
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
   background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../img/clv_1.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
   background-size: cover;
   h1 {
@@ -20,7 +20,7 @@ header.masthead {
       font-size: 1.15rem;
     }
     h1 {
-      font-size: 6rem;
+      font-size: 3rem;
     }
   }
   @include media-breakpoint-up(xl) {
