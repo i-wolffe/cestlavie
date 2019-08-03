@@ -2,9 +2,9 @@
     * {
         font-family: Arial, sans-serif;
       }
-      /* .container {
+      .container-b {
         width:650px; margin:auto; overflow:hidden; height:450px;
-      } */
+      }
       .boxframe1 {
         width:530px;
         height: 100px;
@@ -62,20 +62,4 @@
         position:fixed;
         left:20px;
         top:50px;
-      }
-      
-      a {
-        font-family: Arial, sans-serif;
-        color:#fff;
-        font-size:14px;
-        background:#7AB2FF;
-        padding:5px 12px;
-        display:block;
-        margin:5px 2px;
-        border-radius:4px;
-        text-decoration:underline;
-      }
-      
-      a:hover {
-        cursor:pointer;
       }
