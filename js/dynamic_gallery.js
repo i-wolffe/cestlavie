@@ -18,3 +18,5 @@ function startOff() {
     $(this).addClass('fullshine').parent('div').width(thewidth).parent().addClass('openFrame');
 
     });
+    startOff();
+    
